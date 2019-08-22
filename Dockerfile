@@ -1,4 +1,4 @@
-FROM openrm/krakend:0.9
+FROM openrm/krakend:0.9.0
 
 LABEL maintainer="dortiz@devops.faith"
 
