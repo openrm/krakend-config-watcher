@@ -1,4 +1,5 @@
-FROM openrm/krakend:0.9.0-2019.09.25
+ARG BASE_IMAGE=devopsfaith/krakend:latest
+FROM ${BASE_IMAGE}
 
 LABEL maintainer="dortiz@devops.faith"
 
